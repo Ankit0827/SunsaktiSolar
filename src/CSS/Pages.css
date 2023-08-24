@@ -1,0 +1,32 @@
+.pages-parent-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: url("https://webdesign-finder.com/solarify-v2/wp-content/themes/solarify/img/parallax/breadcrumbs.jpg"); 
+    background-repeat: no-repeat;
+    padding: 2rem;
+    color: white;
+
+}
+
+.page-content-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-para1,.page-para2,.page-para3{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.page-para2,.page-para3{
+    padding-left: 2rem;
+}
+
+

@@ -1,0 +1,99 @@
+.parent-header-div{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    gap: 4rem;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.parent-header-div-rotesChange{
+   display: none;
+}
+
+.location-timer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    gap: 1rem;
+}
+
+.clock-icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.map-marker-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.phon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.clock{
+
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(126, 215, 215);
+}
+
+.map{
+
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(126, 215, 215);
+}
+
+.map-content-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.phon{
+
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(126, 215, 215);
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+    padding-top: 5px;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.logo-div img{
+    width: 90%;
+    height: 5rem;
+}
+
+
+.logo-div p{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+

@@ -1,0 +1,133 @@
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.contact-parnt-div{
+    display: flex;
+   
+}
+
+.contact-left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29sYXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    flex: 1;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.right-contact-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;  
+    flex: 1;
+    background-color:#234579;
+    color: white;
+}
+.right-icon-content-div{
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact-info-div{
+    display: flex;
+    gap: 1rem;
+}
+
+.left-icon-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+}
+
+.main-heading{
+    font-weight: 700;
+    font-size: large;
+}
+
+.address-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-location-div{
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-form-div{
+    background-color: rgb(211, 215, 215);
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> dd761607da41a82cc811554799a0d0f196cea646
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.form-div input{
+   outline: none;
+   border: none;
+   padding: 7px;
+   border-radius: 7px;
+}
+
+.form-submit-div{
+    padding: 2rem;
+}
+
+.form-submit-div button{
+    width: 20%;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.get-in-touch-div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-in-touch-div1 h2{
+     border-bottom: 3px solid rgb(86, 161, 151);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-5%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.form-animate{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(10%);
+}

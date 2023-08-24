@@ -1,0 +1,8 @@
+.count-container {
+    transform: translateY(-20%);
+    transition: transform 1s ease-in-out;
+  }
+  
+  .count-container-animate {
+    transform: translateY(30%);
+  }

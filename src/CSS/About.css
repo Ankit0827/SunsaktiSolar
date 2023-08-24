@@ -1,0 +1,139 @@
+.parent-about-div{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #234579;
+    padding: 4rem;
+    width: 100%;
+    gap: 1rem;
+    transition: transform 1s ease-in-out;
+}
+
+.about-div-animate{
+    transform: translateY(-5%);
+}
+
+
+
+.about-div h2{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.about-content-div{
+   display: flex;
+align-items: center;
+justify-content: center;
+padding: 3rem;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 1.5rem;
+}
+
+.mission-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-mission-div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 2rem;
+    padding-top: 5rem;
+    gap: 1rem;
+    flex: 1;
+    transform: translateX(0%);
+    transition: transform 1s ease-in-out;
+}
+
+.left-mission-div-animate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1;
+    transform: translateX(-10%);
+}
+
+.mission-content-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+}
+
+.right-mission-div{
+    display: flex;
+    flex: 1;
+}
+
+.right-mission-div img{
+     width: 100%;
+}
+
+.solar-sunsakti-div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 2rem;
+}
+
+.choose-heading-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(192, 191, 191);
+
+}
+
+.choose-heading-div h2{
+    border-bottom: 1px solid rgb(112, 111, 111);
+    border-width: 5px;
+    color: #b87720;
+
+}
+
+.sunsakti-choose-reason-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow:2px 2px 2px 2px  #b87720;
+
+}
+
+.sunsakti-choose-reason-div:hover{
+    background-color: #b87720;
+    color: white;
+    box-shadow: 2px 2px 2px 2px  rgb(151, 149, 149);
+}
+
+.service-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.service-heading h2{
+    border-bottom: 1px solid rgb(149, 146, 146);
+    border-width: 5px;
+}
+
+.service-content-div{
+    padding: 3rem;
+}

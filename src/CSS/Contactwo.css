@@ -1,0 +1,51 @@
+.contactwo-parent-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    background: linear-gradient(to right, #26D0CE, #1A2980); 
+    color: white;
+    
+    
+}
+
+.contact-subparent-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.clock-div,.location-div,.phon-div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.clock-div p,.location-div p,.phon-div p{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.contactwo-social-media-div{
+    display: flex;
+    gap: 1rem;
+}
+
+.twitter-div,.facebook-div,.insta-div,.linkDin-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(53, 148, 152);
+}

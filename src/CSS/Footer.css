@@ -1,0 +1,123 @@
+.parent-footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #234579;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uper-footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mobile-number-div,
+.gmail-div,
+.whatsapp-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.Whatsapp{
+    font-size: 2rem;
+
+}
+
+.Whatsapp:hover{
+    transform: rotate(360deg);
+    color: green;
+    transition: all 0.8s ease-in-out;
+}
+
+.mobile-phon-icon,.mobile-email-icon{
+    font-size: 2rem;
+}
+
+.mobile-phon-icon:hover,.mobile-email-icon:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out;
+}
+.mobile-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-phon-icon {
+    font-size: 1.3rem;
+}
+
+.mobile-number {
+    padding-top: 1rem;
+}
+
+.middle-footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Our-services-links-div,
+.our-services-link-div,
+.main-pages-div,
+.main-pages-link-div,
+.our-location-div,
+.location-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    border-bottom: 2px solid white;
+}
+
+.our-services-link-div {
+    margin-top: 1rem;
+}
+
+.lower-footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-scroll-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(83, 87, 89, 0.507);
+    color: white;
+    right: 0rem;
+    bottom: 5rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 930px) {
+    .upper-footer-div {
+        align-items: start;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,109 @@
+.parent-headertwo-div{
+    display: flex;
+    z-index: 1000;
+}
+.parent-headertwo-div-routesChange{
+    display: flex;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.link-social-media-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+}
+.link-social-media-div-Onscroll{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    transition: background-color 1s ease, transform 1s ease;
+    z-index: 1000;
+    cursor: pointer;
+}
+.bar-icon{
+    font-size: 2rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+.link-div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.sun-sakti-img-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    margin-left: 2rem;
+}
+.sun-sakti-logo{
+    width: 100%;
+    height: 4rem;
+}
+
+.link-div nav{
+    display: flex;
+    gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b87720;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 7px;
+  }
+.social-media-div{
+    display: flex;
+    gap: 1rem;
+}
+.bar-icon{
+    display: none;
+}
+.nav-menu{
+    display: flex;
+}
+.down-out-arrow{
+    font-size: 14px;
+}
+.hover-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 15%;
+    height:0;
+    background:transparent;
+    color: white;
+    right: 0rem;
+    top: 3rem;
+    transition: height 1s ease-in-out;
+    overflow: hidden;
+    z-index: 1000;
+}
+.mobile{
+    background-color: #b87720; 
+}
+.hover-content.visible {
+    display: block;
+    height:50%;
+}
