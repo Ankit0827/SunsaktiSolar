@@ -1,8 +1,55 @@
 .count-container {
-    transform: translateY(-20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+    transform: translateY(-5%);
+    font-size: 2rem;
     transition: transform 1s ease-in-out;
+
   }
   
   .count-container-animate {
-    transform: translateY(30%);
+    transform: translateY(20%);
   }
+
+
+  .Achievement-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b87720;
+  }
+
+  .achievemnt-div-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-align: center;
+  }
+
+  .count-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width:500px) {
+    .count-container {
+        font-size: 0.8rem;
+    
+      }
+
+      .count-wrapper{
+        display: flex;
+        align-items:baseline;
+         gap: 1rem;
+      }
+  }
+
+ 

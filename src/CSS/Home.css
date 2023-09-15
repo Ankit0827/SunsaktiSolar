@@ -1,10 +1,10 @@
-.home-parent-div{
+.home-parent-div {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.home-form-content-div{
+.home-form-content-div {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 
-.home-left-div{
+.home-left-div {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -30,7 +30,7 @@
 
 }
 
-.home-left-div-animate{
+.home-left-div-animate {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -41,77 +41,82 @@
 
 }
 
-.home-left-div span{
-   font-size: 1.1rem;
+.home-left-div span {
+    font-size: 1.1rem;
 }
-.home-left-div h1{
-     font-size: 3rem;
+
+.home-left-div h1 {
+    font-size: 3rem;
 }
-.safe{
+
+.safe {
     font-weight: 200;
     color: #b87720;
 }
-.clean{
+
+.clean {
     color: #234579;
 }
 
-.home-left-div span{
-   font-weight: 600;
+.home-left-div span {
+    font-weight: 600;
 }
 
-.btn-home-div{
+.btn-home-div {
     display: flex;
     gap: 2rem;
     padding-top: 1rem;
 }
 
-.home-readmore-btn,.home-services-btn{
+.home-readmore-btn,
+.home-services-btn {
     padding: 1rem;
-    text-decoration: none;  
+    text-decoration: none;
     font-weight: 600;
 
 }
 
-.home-readmore-btn{
-    background-color:#b87720;
+.home-readmore-btn {
+    background-color: #b87720;
     color: white;
     box-shadow: 1px 1px 1px 1px white;
-    
+
 }
 
-.home-services-btn{
+.home-services-btn {
     background-color: white;
     color: black;
-    box-shadow:1px 1px 1px 1px grey; 
+    box-shadow: 1px 1px 1px 1px grey;
 }
 
 
 
-.home-right-div{
+.home-right-div {
     display: flex;
     flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.form-control{
+
+.form-control {
     box-shadow: none !important;
 }
 
 
-.request-heading{
+.request-heading {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 1rem;
-    color:#b87720;
+    color: #b87720;
     font-weight: 700;
     box-sizing: border-box;
     border-bottom: 2px solid white;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.form-home-div{
+.form-home-div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -125,7 +130,7 @@
     background-color: #234579;
 }
 
-.form-home-div-animate{
+.form-home-div-animate {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -138,67 +143,61 @@
 
 }
 
-.form-home-div input{
+.form-home-div input {
     padding: 8px;
     border-radius: 7px;
     outline: none;
     border: none;
 }
 
-.pricing-btn-div{
+.pricing-btn-div {
     width: 100%;
 }
 
-.pricing-btn-div button{
-  text-align: center;
-  color: white;
-  padding: 1rem;
-  border: none;
-  width: 100%;
-  font-weight: 600;
-  border-radius: 7px;
-  background-color: #b87720;
-
-}
-.pricing-btn-div button:hover{
-   background-color: #7A9B34;
-}
-
-.content-form-div{
-    position: absolute;
-    top: 35%;
-    right: 60%;
-    display: flex;    
+.pricing-btn-div button {
+    text-align: center;
     color: white;
-}
-.content-div{
-    display: flex;
-    flex-direction: column;
-    font-size: 3rem;
+    padding: 1rem;
+    border: none;
+    width: 100%;
     font-weight: 600;
+    border-radius: 7px;
+    background-color: #b87720;
+
 }
-.mid-div{
+
+.pricing-btn-div button:hover {
+    background-color: #7A9B34;
+}
+
+
+.mid-div {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     padding-top: 3rem;
 }
 
-.content{
+.content {
     font-size: 1.5rem;
 }
-.uper-mid-div,.mid-logo-div,.mid-heading-div,.mid-content-div{
+
+.uper-mid-div,
+.mid-logo-div,
+.mid-heading-div,
+.mid-content-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.mid-logo-div img{
+
+.mid-logo-div img {
     width: 100%;
     height: 10rem;
 }
 
-.mid-heading-div{
+.mid-heading-div {
     display: flex;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -207,40 +206,40 @@
 
 }
 
-.years{
-      color: #234579;
+.years {
+    color: #234579;
 }
 
-.mid-content-div{
+.mid-content-div {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.read-more-btn{
-      padding: 1rem;
-      color: white;
-      font-weight: 700;
-      border: none;
-      background-color: #234579;
-      box-shadow: 4px 4px 4px 2px grey;
-      text-decoration: none;
 
 }
 
-
-.read-more-btn:hover{
-   color: white;
-   box-sizing: border-box;
-   background-color: #7A9B34;
+.read-more-btn {
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: #234579;
+    box-shadow: 4px 4px 4px 2px grey;
+    text-decoration: none;
 
 }
 
-.lower-mid-div{
+
+.read-more-btn:hover {
+    color: white;
+    box-sizing: border-box;
+    background-color: #7A9B34;
+
+}
+
+.lower-mid-div {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
@@ -252,47 +251,43 @@
 
 }
 
-.card-div{
+.card-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 2px 2px 2px 2px grey;
     padding: 2rem;
-     border-radius: 5px;
-     background-color: white;
-     cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.6s ease;
 }
 
-.card-div:hover{
-     background-color: #b87720;
-     color: white;
+.card-div:hover {
+    background-color: #b87720;
+    color: white;
 }
 
-.parent-type-ofpannel{
+.parent-type-ofpannel {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 1rem;
     padding: 2rem;
 }
 
-.Monocrystalline,.Polycrystalline,.bificial-div{
+.Monocrystalline,
+.Polycrystalline,
+.bificial-div {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    box-shadow:2px 2px 2px 2px #234579;
+    box-shadow: 2px 2px 2px 2px #234579;
 
 }
 
-.monocrystalline-img-div img{
-    width: 100%;
-    height: 15rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-}
-.policrystiline-img-div img,.bificial-img-div img{
+.monocrystalline-img-div img {
     width: 100%;
     height: 15rem;
     align-items: center;
@@ -300,107 +295,36 @@
     border-radius: 8px;
 }
 
-
-/* 
-.price-card-div{
-    display: flex;
-    flex-wrap: wrap;
+.policrystiline-img-div img,
+.bificial-img-div img {
+    width: 100%;
+    height: 15rem;
     align-items: center;
     justify-content: center;
-    padding: 3.5rem;
-    background-color:#234579;
-    font-family: Arial, Helvetica, sans-serif;
-} */
-.residental-card-div,.family-card-div,.commercial-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap:1rem;
-    box-sizing: border-box;
-    padding: 4rem;
-    background-color: white;
-}
-.residental-card-div{
-    margin-left: 2rem;
+    border-radius: 8px;
 }
 
-.family-card-div{
-      padding: 7rem;
-      
-}
-.circle-div,.circle-div2,.circle-div3{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-family: 'Courier New', Courier, monospace;
-   padding: 2rem;
-   padding-bottom: 3.5rem;
-   padding-top: 3.5rem;
-   border-radius: 50%;
-   font-size: 1.5rem;
-   font-weight: 600;
-   background-color: #7A9B34;
-   color: white;
-   
-}
-
-.circle-div2{
-    background-color: #234579;
-}
-
-.circle-div3{
-    background-color: #b87720;
-
-}
-
-.residental-btn{
-    border: none;
-    padding: 8px;
-    background-color: #7A9B34;
-    border-radius: 2rem;
-    width: 7rem;
-    color: white;
-}
-
-.family-btn{
-    border: none;
-    padding: 8px;
-    background-color: #234579;
-    border-radius: 2rem;
-    width: 7rem;
-    color: white;
-}
-
-.connercial-btn{
-    border: none;
-    padding: 8px;
-    background-color: #b87720;
-    border-radius: 2rem;
-    width: 7rem;
-    color: white; 
-}
-
-.about-sunsine-more-div{
+.about-sunsine-more-div {
     display: flex;
 }
 
-.about-sunsine{
+.about-sunsine {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sunsine-left-div{
+
+.sunsine-left-div {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.about-sun-sakti-read-more-btn{
+.about-sun-sakti-read-more-btn {
     padding: 2rem;
 }
 
-.about-read-more-link{
+.about-read-more-link {
     background-color: #234579;
     padding: 8px;
     color: white;
@@ -409,7 +333,7 @@
 
 }
 
-.left-content-div{
+.left-content-div {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -418,11 +342,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.left-content-div h2{
-   text-align: center;
+.left-content-div h2 {
+    text-align: center;
 }
 
-.sunsine-right-div{
+.sunsine-right-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -430,75 +354,226 @@
     flex: 1;
 }
 
-.sunsine-right-div img{
+.sunsine-right-div img {
     width: 100%;
     border-radius: 10px;
 }
 
-.why-choose-div{
+.why-choose-div {
     display: flex;
-
 }
 
 
-.left-choose-div{
+.left-choose-div {
     display: flex;
     flex: 1;
     padding: 1rem;
-   
+
+}
+.why-choose-lower-content-div{
+    padding: 1rem;
 }
 
-.left-choose-div img{
+.left-choose-div img {
     width: 100%;
     border-radius: 8px;
 }
 
-.right-choose-div{
+.right-choose-div {
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
     gap: 1rem;
-    flex:1;
+    flex: 1;
 }
 
-.heading-choose-div{
+.heading-choose-div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.lower-right-chooseCard-div{
+.lower-right-chooseCard-div {
     display: flex;
     align-items: center;
-    margin-left: 4rem;
+    justify-content: center;
     gap: 1rem;
 }
 
-.right-content-div{
+.right-content-div {
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (max-width:500px) {
-    .home-form-content-div{
+@media screen and (max-width:720px) {
+
+
+    .home-form-content-div {
+        padding: 2rem;
         display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        transition: background-image 1s ease-in;
+    }
+    .card-div {
+        width: 100%;
+    }
+
+    .home-left-div {
+        padding-left: 0rem;
+        transform: none;
+        transition: none;
         padding: 0;
+    }
+
+    .home-left-div span,
+    .home-left-div-animate span {
         font-size: 10px;
 
     }
 
-    .home-left-div{
-        border: 1px solid red;
+    .home-left-div h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-left-div-animate {
         padding-left: 0rem;
-    display: flex;
-    align-items: center;
+        transform: none;
+    }
+
+    .btn-home-div {
+        gap: 1rem;
+    }
+
+    .home-readmore-btn,
+    .home-services-btn {
+        padding: 1rem;
+        text-decoration: none;
+        font-weight: normal;
         font-size: 10px;
+        border-radius: 7px;
 
     }
 
-    .home-left-div-animate{
-        border: 1px solid rgb(16, 8, 8);
-        padding-left: 0rem;
+    .form-home-div {
+        padding: 1rem;
+        width: 100%;
+        box-shadow: none;
+        transform: none;
+        transition: none;
+    }
+
+    .form-home-div-animate {
+        width: 100%;
+        box-shadow: none;
+        transform: none;
+
+    }
+
+    .mid-div {
+        padding: 0rem;
+        padding-top: 0rem;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+
+    .read-more-btn {
+        padding: 0.5rem;
+        color: white;
+        font-weight: normal;
+        border: none;
+        background-color: #234579;
+        text-decoration: none;
+
+    }
+
+    .lower-mid-div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        padding: 1rem;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .parent-type-ofpannel {
+        padding: 1rem;
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+
+    .monocrystalline-img-div img {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .policrystiline-img-div img,
+    .bificial-img-div img {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .about-sunsine {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
         font-size: 10px;
     }
+
+    .why-choose-div {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .lower-right-chooseCard-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem;
+        gap: 1rem;
+    }
+
+    .right-content-div{
+        padding: 1rem;
+    }
+
+    .right-content-div h3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+    }
+   
+    
+
+
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+    .lower-mid-div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        padding: 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #7A9B34;
+    
+    }
+
+    .card-div {
+        width: 100%;
+    }
+
+
 }

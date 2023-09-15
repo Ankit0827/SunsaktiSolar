@@ -5,13 +5,14 @@ const Achievements = () => {
   const [isInView, setIsInView] = useState(false);
   const [animateDiv, setAnimateDiv] = useState(false)
   const [counts, setCounts] = useState([0, 0, 0, 0]);
-  const targetNumbers = [300, 60, 6, 50];
+  const targetNumbers = [300, 60, 6, 50,100];
 
   const Heading = [
     "Total Projects",
     "Mega Watts Installed",
     "Awards",
     "Team members",
+    "Client Satisfaction"
   ];
 
   useEffect(() => {
@@ -22,7 +23,7 @@ const Achievements = () => {
       }
     };
 
-    const observer = new IntersectionObserver(handleScroll, { threshold: 1.0 });
+    const observer = new IntersectionObserver(handleScroll, { threshold: 0.7});
 
     observer.observe(document.querySelector(".Achievement-div"));
 
@@ -64,61 +65,21 @@ const Achievements = () => {
   }, [isInView, counts, targetNumbers]);
 
   return (
-    <div
-      className="Achievement-div"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "2rem",
-        padding: "2rem",
-        fontFamily: "Arial, Helvetica, sans-serif",
-        backgroundColor: "#b87720"
-      }}
-    >
-      <div
-        className="achievemnt-div-heading"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center",
-          color: "white"
-        }}
-      >
+    <div className="Achievement-div">
+      <div className="achievemnt-div-heading">
         <h2 style={{
           borderBottom: "2px solid white"
         }}>Achievements</h2>
       </div>
-      <div
-        className="count-wrapper"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="count-wrapper">
         {counts.map((count, index) => (
           <div key={index} className={animateDiv ? "count-container" : "count-container-animate"}>
             <p
               className="count"
-              style={{
-                fontSize: "3rem",
-                fontWeight: "600",
-                width: "14rem",
-                textAlign: "center",
-                color: "white",
-              }}
             >
               {count + "+"}
             </p>
-            <p
-              style={{
-                textAlign: "center",
-                fontWeight: "600",
-                color: "white"
-              }}
-            >
+            <p className="para2">
               {Heading[index]}
             </p>
           </div>

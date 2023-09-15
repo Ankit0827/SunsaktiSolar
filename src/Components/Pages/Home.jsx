@@ -1,5 +1,5 @@
 import "../../CSS/Home.css";
-import midLogo from "../../Images/Sun_Sakti_Solar_Green_Energy_logo.png";
+import midLogo from "../../Images/Sun_Sakti_Solar_Green_Energy_logo1.png";
 import { cardData } from "../../utills/mockData";
 import Reason from "./Subpages/Reason";
 import { Link } from "react-router-dom";
@@ -11,13 +11,31 @@ import axios from "axios";
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [formAnimate, setFormAnimate] = useState(false);
-  const [formData,setFormData]=useState({
-    company_name:"",
-    phone:"",
-    email:"",
-    pincode:"",
-    messages:""
+  const [companyname, setCompanyname] = useState("")
+  const [phone, setPhon] = useState("")
+  const [email, setEmail] = useState("")
+  const [pincode, setPincode] = useState("")
+  const [messages, setMessages] = useState("")
+
+  const [formData, setFormData] = useState({
+    company_name: "",
+    phone: "",
+    email: "",
+    pincode: "",
+    messages: ""
   })
+
+  useEffect(() => {
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      company_name: companyname,
+      phone: phone,
+      email: email,
+      pincode: pincode,
+      messages: messages
+
+    }));
+  }, [companyname, phone, email, pincode, messages]);
 
   const sliderImage = [
     'url("https://hips.hearstapps.com/hmg-prod/images/low-angle-view-of-solar-panels-against-sky-royalty-free-image-1587389153.jpg")',
@@ -40,7 +58,7 @@ const Home = () => {
       }
     };
 
-    const observer = new IntersectionObserver(handleScroll, { threshold: 1.0 });
+    const observer = new IntersectionObserver(handleScroll, { threshold: 0.7 });
 
     observer.observe(document.querySelector(".home-right-div"));
     observer.observe(document.querySelector(".home-left-div-animate"));
@@ -51,15 +69,11 @@ const Home = () => {
   }, []);
 
 
-  // useEffect(()=>{
-  //   PostfromData();
-  // },[])
-
-  const PostfromData=()=>{
-       axios.post("https://8516-103-137-84-186.ngrok-free.app/send-email",formData).then((res)=>{
-        console.log(res)
-        setFormData(res)
-       })
+  const PostfromData = () => {
+    axios.post("http://localhost:3001/send-email", formData).then((res) => {
+      console.log(res)
+      setFormData(res)
+    })
   }
 
   return (
@@ -100,15 +114,31 @@ const Home = () => {
             <div className="request-heading">
               <h2>Request Pricing</h2>
             </div>
-            <input type="text" placeholder="Company Name" />
-            <input type="text" placeholder="Phone number" />
-            <input type="text" placeholder="Enter your Email" />
-            <input type="text" placeholder="Pin code" />
+            <input type="text" placeholder="Company Name" required onChange={(e) => {
+              setCompanyname(e.target.value)
+              console.log(companyname)
+            }} />
+            <input type="text" placeholder="Phone number" required onChange={(e) => {
+              setPhon(e.target.value)
+              console.log(phone)
+            }} />
+            <input type="email" placeholder="Enter your Email" required onChange={(e) => {
+              setEmail(e.target.value)
+              console.log(email)
+            }} />
+            <input type="text" placeholder="Pin code" required onChange={(e) => {
+              setPincode(e.target.value)
+              console.log(pincode)
+            }} />
             <textarea
               className="form-control"
               rows={3}
               cols={5}
               placeholder="Leave your Requirements"
+              onChange={(e) => {
+                setMessages(e.target.value)
+                console.log(messages)
+              }}
             ></textarea>
             <div className="pricing-btn-div">
               <button onClick={PostfromData}>REQUEST PRICING</button>
@@ -257,19 +287,29 @@ const Home = () => {
           <div className="heading-choose-div">
             <h2>WHY CHOOSE US?</h2>
           </div>
-          {cardData[1]?.Data[1]?.data2[1]?.rightDiv?.map((resp, index) => (
+          {/* {cardData[1]?.Data[1]?.data2[1]?.rightDiv?.map((resp, index) => (
             <div className="lower-right-chooseCard-div">
-              <div className={"img-right-lower-div" + resp.id}>
-                <img src={resp.imgurl} alt="" />
+              <div className={"img-right-lower-div"}>
+                {/* <img src={resp.imgurl} alt="" /> */}
+                {/* <h3>{resp.divheading}</h3>
+
               </div>
               <div className="right-content-div">
-                <h3>{resp.divheading}</h3>
-                <span>{resp.divparalineOne}</span>
-                <span>{resp.divparalineTwo}</span>
-                <span>{resp.divparalineThree}</span>
+                <span>{resp.content}</span>
+                <span>{resp.content}</span>
+                <span>{resp.content}</span>
               </div>
+            </div> */}
+
+            <div className="why-choose-lower-content-div">
+              <h4>Demand Response:</h4>
+              <p>The provision of sustainable energy supplies for expanding & increasingly productive world is one of the major issues facing,civilization today.</p>
+              <h4>Renewable Integration:</h4>
+              <p>The analysis considers emissions and energy security, as political and economic pressures move society towards a low-carbon future.civilization today.</p>
+              <h4>Capacity Reserve:</h4>
+              <p>Where does the energy we use come from? It’s absolutely vital to every single thing we do every day, but for most people, it is utterly invisible ,civilization today.</p>
             </div>
-          ))}
+         
         </div>
       </div>
       <Reason />

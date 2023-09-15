@@ -26,7 +26,7 @@ const About = ({ heading }) => {
             }
         };
 
-        const observer = new IntersectionObserver(handleScroll, { threshold: 1.0 });
+        const observer = new IntersectionObserver(handleScroll, { threshold: 0.7 });
 
         observer.observe(document.querySelector(".about-div-animate"));
         observer.observe(document.querySelector(".left-mission-div-animate"));
@@ -55,11 +55,7 @@ const About = ({ heading }) => {
                 </p>
             </div>
             <div className="mission-div">
-                <div
-                    className={
-                        secondDivAnimate ? "left-mission-div" : "left-mission-div-animate"
-                    }
-                >
+                <div className={secondDivAnimate ? "left-mission-div" : "left-mission-div-animate"}>
                     <div className="mission-heading-div">
                         <h2>{text}</h2>
                     </div>
@@ -152,52 +148,32 @@ const About = ({ heading }) => {
                 <div className="service-content-div">
                     <div>
                         <h3>Residential Solar:</h3>
-                        <span>
+                        <p>
                             We offer solar solutions for homeowners, enabling them to generate
-                            their{" "}
-                        </span>
-                        <span>
-                            electricity and reduce their reliance on traditional energy
-                            sources.
-                        </span>
+                            their residential solar panels are designed for use on homes and smaller-scale installations to harness solar energy and convert it into electricity for household consumption. They share many similarities with industrial solar panels but are typically smaller and more suited for the needs of individual homeowners.
+                        </p>
                     </div>
                     <div>
                         <h3>Commercial Solar:</h3>
-                        <span>
-                            Businesses can benefit from our commercial solar installations,
-                            allowing{" "}
-                        </span>
-                        <span>
-                            them to cut operational costs and demonstrate their commitment to
-                            sustainability
-                        </span>
-                    </div>
-                    <div>
-                        <h3>Solar System Design: </h3>
-                        <span>
-                            Our expert team will design a customized solar system optimized
-                            for
-                        </span>
-                        <span>your location, energy needs, and aesthetic preferences</span>
+                        <p> Our commercial solar panels are meticulously designed to harness the power of the sun, efficiently converting sunlight into clean, renewable electricity. With advanced photovoltaic technology, these panels are built to deliver high-performance, ensuring optimal energy production for your commercial operations.</p>
                     </div>
                     <div>
                         <h3>Installation & Maintenance:</h3>
-                        <span>
-                            {" "}
-                            Our skilled technicians handle the seamless installation of your{" "}
-                        </span>
-                        <span>
-                            solar system and provide regular maintenance to ensure optimal
+                        <p>
+                            Our skilled technicians handle the seamless installation of your solar system and provide regular maintenance to ensure optimal
                             performance.
-                        </span>
+                            we're your trusted partner in harnessing the power of the sun for clean, renewable energy. Our comprehensive solar panel installation and maintenance services are designed to make your transition to solar power seamless, efficient, and worry-free.
+                        </p>
+
                     </div>
                     <div>
                         <h3>Solar Financing:</h3>
-                        <span>
+                        <p>
                             We offer flexible financing options to make the transition to
-                            solar energy{" "}
-                        </span>
-                        <span>affordable and accessible.</span>
+                            solar energy affordable and accessible.
+                            Our solar loans are a straightforward way to finance your solar panel installation. With competitive interest rates and flexible terms, you can secure the funds needed to go solar while keeping control of your solar energy system. You'll enjoy the benefits of reduced energy bills and long-term savings from day one.
+                        </p>
+                      
                     </div>
                 </div>
             </div>

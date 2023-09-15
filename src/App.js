@@ -21,6 +21,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Headertwo />
+
+        <div className="content-div">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/ProducService" element={<ProducService />} />
@@ -30,6 +32,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Monocrystiline" element={<Monocrystalline />} />
         </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
 

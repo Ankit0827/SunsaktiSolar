@@ -1,34 +1,10 @@
-/* Add your other styles... */
-
-.description-content-div{
-    padding: 2rem;
+.herosection-div{
+    padding: 3rem;
 }
 
-
-.description-content-div h3{
+.main-heading-div{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
 }
-
-.benifits-residendtial-div{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-}
-
-.desription2-div{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-}
-
-.desription2-div h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-}
-
-  

@@ -24,7 +24,7 @@ const ProductService = () => {
     {
       id: 2,
       imgUrl:
-        "https://nmsolargroup.com/wp-content/uploads/2022/03/LH5Wad5xH7gexBnb5gpR1sOCO8Pv1XQu1648484611.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCb5I5IKUU6hRaa3mrruP5XUUwsDgCd7trw&usqp=CAU",
       heading: "Industrial Solar Pannel",
       Para1: "Sirloin filet mignon beef ribs kevin",
       para2: "fatback turkey meatloaf. Cow",
@@ -62,7 +62,7 @@ const ProductService = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   });
@@ -70,6 +70,12 @@ const ProductService = () => {
   return loading ? (
     <Shimmer />
   ) : (
+<>
+    <div className="service-heading-div">
+    <h2 style={{
+      borderBottom:"2px solid white"
+    }}>Services</h2>
+   </div>
     <div className="ProducService-parent-div">
       {cardproduct.map((res, index) => (
         <div
@@ -88,7 +94,7 @@ const ProductService = () => {
             <span>{res.para3}</span>
           </div>
           <div className="btn-div">
-            <Link to={`/ProducService/${cardproduct[index].id}`} className="link">
+            <Link to={`/ProducService/${cardproduct[index].id}`} className="link-btn">
               {res.btn}...
             </Link>
           </div>
@@ -96,6 +102,7 @@ const ProductService = () => {
       ))}
 
     </div>
+    </>
   );
 };
 

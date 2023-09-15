@@ -63,7 +63,8 @@
 
 .middle-footer-div {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -115,9 +116,20 @@ h4 {
 }
 
 
-@media screen and (max-width: 930px) {
-    .upper-footer-div {
-        align-items: start;
+@media screen and (max-width:500px) {
+    .parent-footer-div {
+        display: flex;
         flex-direction: column;
+        gap: 2rem;
+        background-color: #234579;
+        color: white;
+        padding: 1rem;
+    }
+
+    .middle-footer-div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 0.5rem;
     }
 }
