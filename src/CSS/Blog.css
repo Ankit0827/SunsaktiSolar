@@ -78,7 +78,8 @@
     flex-direction: column;
     gap: 1rem;
     padding: 5rem;
-    background-color: rgb(211, 215, 215);
+    background-color: #b87720;
+    color: white;
 }
 
 .form-submit-btn{
@@ -88,4 +89,9 @@
     font-weight: 600;
     border: none;
     border-radius: 7px;
+}
+.form-submit-btn:hover{
+    background-color: #234579;
+    color: white;
+    box-shadow: 2px 2px 2px 2px white;
 }

@@ -76,7 +76,17 @@ const Blog = () => {
       </div>
 
       <div className="form-blog-div">
+        
         <form action="" className='blog-form2'>
+        <div style={{
+          display:"flex",
+          alignItems:"center",
+          justifyContent:"center",
+          padding:"1rem",
+          
+        }}>
+          <h4 >Get In touch</h4>
+        </div>
           <label htmlFor="">
             Name
           </label>
