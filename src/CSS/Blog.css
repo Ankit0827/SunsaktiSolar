@@ -37,9 +37,30 @@
     
 }
 
+.name-input-field{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.email-input-field{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.text-area-input-field{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
 @media screen and (max-width:760px) {
-    .blog-card{
-      
+    .blog-card{     
         width: 100%;
         padding: 1rem;
     }

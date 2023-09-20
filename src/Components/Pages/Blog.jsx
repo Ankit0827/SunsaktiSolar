@@ -80,12 +80,12 @@ const Blog = () => {
           <label htmlFor="">
             Name
           </label>
-          <input type="text" />
+          <input type="text" className='name-input-field' placeholder='Enter your name'/>
           <label htmlFor="">
             Email
           </label>
-          <input type="text" />
-          <textarea name="" id="" cols="30" rows="10" placeholder='Leave your Comment'></textarea>
+          <input type="text" className='email-input-field' placeholder='Enter your mail'/>
+          <textarea name="" id="" cols="30" rows="10" placeholder='Leave your Requirement' className='text-area-input-field'></textarea>
           <div className="blog-form-submit">
             <button className="form-submit-btn">submit</button>
           </div>

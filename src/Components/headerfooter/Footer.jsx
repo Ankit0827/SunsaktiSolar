@@ -31,12 +31,26 @@ const Footer = () => {
     };
   }, []);
 
+
+
+  const email = 'info.sunshaktisolar@gmail.com';
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`
+  };
+
+  const phoneNumber = '8432558555';  
+
+  const handlePhoneIconClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
   return (
     <div className="parent-footer-div">
       <div className="uper-footer-div">
         <div className="mobile-number-div">
           <div className="mobile-icon">
-            <FontAwesomeIcon icon={faPhone} className="mobile-phon-icon" />
+            <FontAwesomeIcon icon={faPhone} className="mobile-phon-icon" onClick={handlePhoneIconClick} />
           </div>
           <div className="mobile-number">
             <p>+91-8432558555</p>
@@ -44,7 +58,7 @@ const Footer = () => {
         </div>
         <div className="gmail-div">
           <div className="mobile-icon">
-            <FontAwesomeIcon icon={faEnvelope} className="mobile-email-icon" />
+            <FontAwesomeIcon icon={faEnvelope} className="mobile-email-icon" onClick={handleEmailClick} />
           </div>
           <div className="mobile-number">
             <p>info.sunshaktisolar@gmail.com</p>
@@ -52,7 +66,11 @@ const Footer = () => {
         </div>
         <div className="whatsapp-div">
           <div className="whatsapp-icon">
-            <WhatsAppOutlined className="Whatsapp" />
+            <Link to="https://api.whatsapp.com/send?phone=8432558555" style={{
+              color:"white"
+            }}>
+              <WhatsAppOutlined className="Whatsapp" />
+            </Link>
           </div>
           <div className="mobile-number">
             <p>WhatsApp</p>
@@ -77,11 +95,11 @@ const Footer = () => {
             <h4>Main Pages</h4>
           </div>
           <div className="main-pages-link-div">
-            <Link className="footer-link">Home</Link>
-            <Link className="footer-link">About</Link>
-            <Link className="footer-link">Product</Link>
-            <Link className="footer-link">Blog</Link>
-            <Link className="footer-link">Contact</Link>
+            <Link  to ="/"className="footer-link" onClick={moveToTop}>Home</Link>
+            <Link to="/About" className="footer-link" onClick={moveToTop}>About</Link>
+            <Link to="/ProducService" className="footer-link" onClick={moveToTop}>Product</Link>
+            <Link to="/Blog" className="footer-link" onClick={moveToTop}>Blog</Link>
+            <Link to="/Contact" className="footer-link" onClick={moveToTop}>Contact</Link>
           </div>
         </div>
         <div className="our-location-div">

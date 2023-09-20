@@ -25,44 +25,49 @@ const Headertwo = () => {
     closeNav();
   }
 
+  const moveToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <div className="parent-header-div">
+    <div className="parent-header-div" >
       <div className="logo-div">
-        <Link to="/">
+        <Link to="/" onClick={moveToTop}>
           <img src={logo} alt="sun-sakti-logo" className="sun-sakti-logo" />
         </Link>
       </div>
       <div className="menu-bar-links-div">
         <div className="link-menubar-div">
-          <Link to="/" className={location.pathname === "/" ? "active" : "link"} >
+          <Link to="/" className={location.pathname === "/" ? "active" : "link"}  onClick={moveToTop}>
             Home
           </Link>
           <Link
             to="/About"
             className={location.pathname === "/About" ? "active" : "link"}
-
+            onClick={moveToTop}
           >
             About us
           </Link>
           <Link
             to="/ProducService"
             className={location.pathname === "/ProducService" ? "active" : "link"}
-
+            onClick={moveToTop}
           >
             Services
           </Link>
           <Link
             to="/Blog"
             className={location.pathname === "/Blog" ? "active" : "link"}
-
+            onClick={moveToTop}
           >
             Blog
           </Link>
           <Link
             to="/Contact"
             className={location.pathname === "/Contact" ? "active" : "link"}
+            onClick={moveToTop}
           >
-            Contactus
+            Contact
           </Link>
         </div>
       </div>
