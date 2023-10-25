@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 
 import Achievements from "./Subpages/Achievements";
 import axios from "axios";
+import Addhomechangeone from "./changes/Addhomechangeone";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -251,6 +252,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Addhomechangeone/>
       <div className="about-sunsine-more-div">
         {
           <div className="about-sunsine">

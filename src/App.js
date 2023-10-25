@@ -9,16 +9,12 @@ import About from './Components/Pages/About'
 import Residential from './Components/Pages/Subpages/Residendtial'
 import Blog from './Components/Pages/Blog'
 import Monocrystalline from "./Components/Pages/Subpages/Monocrystiline";
-import { useEffect} from "react";
-import { useLocation } from "react-router-dom";
-
-
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Headertwo />
 
         <div className="content-div">

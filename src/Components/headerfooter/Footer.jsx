@@ -36,7 +36,7 @@ const Footer = () => {
   const email = 'info.sunshaktisolar@gmail.com';
 
   const handleEmailClick = () => {
-    window.location.href = `mailto:${email}`
+    window.location.href = `emailto:${email}`
   };
 
   const phoneNumber = '8432558555';  
