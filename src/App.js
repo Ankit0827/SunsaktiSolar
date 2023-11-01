@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes, } from "react-router-dom";
+import React from "react";
 import "./App.css";
 import Home from "./Components/Pages/Home";
 import ProducService from "./Components/Pages/ProducService";
@@ -8,7 +9,7 @@ import Footer from "./Components/headerfooter/Footer";
 import About from './Components/Pages/About'
 import Residential from './Components/Pages/Subpages/Residendtial'
 import Blog from './Components/Pages/Blog'
-import Monocrystalline from "./Components/Pages/Subpages/Monocrystiline";
+import Companyjaipur from "./Components/Pages/changes/CompanyJaipur";
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
           <Route path="/ProducService/:urlId" element={<Residential />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/About" element={<About heading={"Our Mission"} />} />
+          <Route path="/Company" element={<Companyjaipur/>} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Monocrystiline" element={<Monocrystalline />} />
         </Routes>
         </div>
         <Footer />

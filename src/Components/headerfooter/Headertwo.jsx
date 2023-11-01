@@ -33,12 +33,12 @@ const Headertwo = () => {
     <div className="parent-header-div" >
       <div className="logo-div">
         <Link to="/" onClick={moveToTop}>
-          <img src={logo} alt="sun-sakti-logo" className="sun-sakti-logo" />
+          <img src={logo} alt="logo" className="sun-sakti-logo" width="100%" height="100%" />
         </Link>
       </div>
       <div className="menu-bar-links-div">
         <div className="link-menubar-div">
-          <Link to="/" className={location.pathname === "/" ? "active" : "link"}  onClick={moveToTop}>
+          <Link to="/" className={location.pathname === "/" ? "active" : "link"} onClick={moveToTop}>
             Home
           </Link>
           <Link
@@ -61,6 +61,13 @@ const Headertwo = () => {
             onClick={moveToTop}
           >
             Blog
+          </Link>
+          <Link
+            to="/Company"
+            className={location.pathname === "/Company" ? "active" : "link"}
+            onClick={moveToTop}
+          >
+            Company
           </Link>
           <Link
             to="/Contact"
@@ -112,7 +119,8 @@ const Headertwo = () => {
       </div>
 
       <div className="bar-div">
-        <BarsOutlined className="bar" onClick={ openNav } />
+        <i onClick={openNav} className="fa-solid fa-bars"></i>
+        {/* <BarsOutlined className="bar" onClick={ openNav } /> */}
       </div>
     </div>
   );
