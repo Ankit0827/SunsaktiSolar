@@ -4,6 +4,7 @@ import { cardData } from "../../utills/mockData";
 import Reason from "./Subpages/Reason";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import ImageCarousel from "./changes/Slider";
 
 import Achievements from "./Subpages/Achievements";
 import axios from "axios";
@@ -78,6 +79,7 @@ const Home = () => {
   }
 
   return (
+    <>
     <div className="home-parent-div">
       <div
         className="home-form-content-div"
@@ -316,7 +318,9 @@ const Home = () => {
       </div>
       <Reason />
       <Achievements />
+      <ImageCarousel/>
     </div>
+    </>
   );
 };
 

@@ -1,3 +1,17 @@
+import icon1 from '../Images/icon1.png'
+import icon2 from '../Images/icon2.png'
+import icon3 from '../Images/icon3.png'
+import icon4 from '../Images/icon4.png'
+import icon5 from '../Images/icon5.png'
+import icon6 from '../Images/icon6.png'
+import ourSitesimg1 from '../Images/installedimg1.jpg'
+import ourSitesimg2 from '../Images/installedimg2.jpeg'
+import ourSitesimg3 from '../Images/instaalledimg3.jpeg'
+import ourSitesimg4 from '../Images/installedimg4.jpeg'
+
+
+
+
 export const cardData = [
   {
     midcardData: [
@@ -365,5 +379,76 @@ export const viewMoreData = [
     ],
   },
 ];
+
+
+
+export const offercard=[
+  {
+       id:1,
+       heading:"All-inclusive Turnkey Solar Energy Service",
+       cardDescription:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+       imgPath:icon1
+  },
+  {
+    id:2,
+    heading:"installation of rooftop solar pannel in jaipur",
+    cardDescription:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    imgPath:icon2
+},
+{
+  id:3,
+  heading:"Solar installation & EPC in jaipur",
+  cardDescription:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  imgPath:icon3
+},
+{
+  id:4,
+  heading:"Home Solar pannel in jaipur",
+  cardDescription:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  imgPath:icon4
+},
+{
+  id:5,
+  heading:"Sustainable Solution",
+  cardDescription:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  imgPath:icon5
+},
+{
+  id:6,
+  heading:"Service for Commercial Solar Pannel in jaipur",
+  cardDescription:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  imgPath:icon6
+},
+]
+
+export const OurinstalledSites=[
+  {
+    id:1,
+    ourSitesImgPath:ourSitesimg1,
+    SitesDescription:"Fame Colling Corporation Varansi",
+    kwatt:"22KW OFF-GRID"
+  },
+  {
+    id:2,
+    ourSitesImgPath:ourSitesimg2,
+    SitesDescription:"Fame Colling Corporation Varansi",
+    kwatt:"70KW"
+
+  },{
+    id:3,
+    ourSitesImgPath:ourSitesimg3,
+    SitesDescription:"Fame Colling Corporation Varansi",
+    kwatt:"560KW ON-GRID"
+
+  },{
+    id:4,
+    ourSitesImgPath:ourSitesimg4,
+    SitesDescription:"Fame Colling Corporation Varansi",
+    kwatt:"20KW"
+
+  },
+]
+
+
 
 

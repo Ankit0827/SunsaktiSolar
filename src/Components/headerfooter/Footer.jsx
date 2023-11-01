@@ -81,7 +81,7 @@ const Footer = () => {
       <div className="middle-footer-div">
         <div className="Our-services-links-div">
           <div className="our-service-heading-div">
-            <h4>Our Services</h4>
+            <h3>Our Services</h3>
           </div>
           <div className="our-services-link-div">
             <Link className="footer-link">Residential Solar pannel</Link>

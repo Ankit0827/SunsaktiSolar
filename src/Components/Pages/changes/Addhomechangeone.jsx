@@ -1,55 +1,89 @@
-import photo from '../../../Images/photo.png'
+import photo from '../../../Images/photo.png';
+import "../../../CSS/AddHomePageOne.css";
 
 const Addhomechangeone = () => {
     return (
-        <div className=" flex flex-col border-2 border-red-400 px-7">
-            <div className="flex flex-col  text-center">
-                <h3>changes</h3>
-                <p>para changes content</p>
+        <div className='parnet-div'>
+            <div className='upper-div text-center w-full'>
+                <h2>Changes</h2>
+                <p>work in progress...</p>
             </div>
-            <div className="flex justify-between">
-                <div className="border-2 p-2 flex">
-                    <div>
-                        <h3>SITE SURVEY</h3>
-                        <p>Comperehensive Engineering</p>
-                        <p>Assesment</p>
+            <div className='flex items-center handle-small justify-center gap-36 p-5'>
+                <div className='flex flex-col gap-2'>
+                    <div className='flex gap-2 shadow-lg p-4'>
+                        <div>
+                            <h3>Site Survey</h3>
+                            <p>Some content</p>
+                        </div>
+                        <div>
+                            <img src={photo} alt="/" className='w-10' />
+                        </div>
                     </div>
-                    <div className='w-16'>
-                        <img src={photo} alt="" />
+                    <div className='flex gap-2 shadow-lg p-4'>
+                        <div>
+                            <h3>Site Survey</h3>
+                            <p>Some content</p>
+                        </div>
+                        <div>
+                            <img src={photo} alt="/" className='w-10' />
+                        </div>
+                    </div>
+                    <div className='flex gap-2 shadow-lg p-4'>
+                        <div>
+                            <h3>Site Survey</h3>
+                            <p>Some content</p>
+                        </div>
+                        <div>
+                            <img src={photo} alt="/" className='w-10' />
+                        </div>
                     </div>
                 </div>
-                <div className="second-div-card border-2 p-2 flex">
-                    <div>
-                        <h3>SITE SURVEY</h3>
-                        <p>Comperehensive Engineering</p>
-                        <p>Assesment</p>
-                    </div>
-                    <div className='w-16'>
-                        <img src={photo} alt="" />
-                    </div>
-                </div>
-                <div className="third-div-card border-2 p-2 flex">
-                    <div>
-                        <h3>SITE SURVEY</h3>
-                        <p>Comperehensive Engineering</p>
-                        <p>Assesment</p>
-                    </div>
-                    <div className='w-16'>
-                        <img src={photo} alt="" />
-                    </div>
-                </div>
-            </div>
-            
-            <div className="home-change-content-div border-2 flex items-center justify-center">
-                <div className=''>
-                    <h3>SITE SURVEY</h3>
-                    <p>Comperehensive Engineering</p>
-                    <p>Assesment</p>
-                </div>
-                <div className='w-16'>
+                <div className='img-mid-div flex flex-col gap-2'>
                     <img src={photo} alt="" />
+                    <div className='flex flex-col item-center justify-center shadow-lg p-4 m-8'>
+                <div className='flex item-center justify-center'>
+                    <img src={photo} alt="/" className='w-10' />
+                </div>
+                <div className='text-center '>
+                    <h3>Site Survey</h3>
+                    <p>Some content</p>
                 </div>
             </div>
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <div className='flex gap-2 shadow-lg p-4'>
+                        <div>
+                            <img src={photo} alt="/" className='w-10' />
+                        </div>
+                        <div>
+                            <h3>Site Survey</h3>
+                            <p>Some content</p>
+                        </div>
+
+                    </div>
+                    <div className='flex gap-2 shadow-lg p-4'>
+                        <div>
+                            <img src={photo} alt="/" className='w-10' />
+                        </div>
+                        <div>
+                            <h3>Site Survey</h3>
+                            <p>Some content</p>
+                        </div>
+
+                    </div>
+                    <div className='flex gap-2 shadow-lg p-4'>
+                        <div>
+                            <img src={photo} alt="/" className='w-10' />
+                        </div>
+                        <div>
+                            <h3>Site Survey</h3>
+                            <p>Some content</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+          
         </div>
     )
 }

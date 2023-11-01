@@ -72,9 +72,9 @@ const ProductService = () => {
   ) : (
 <>
     <div className="service-heading-div">
-    <h2 style={{
+    <h1 style={{
       borderBottom:"2px solid white"
-    }}>Services</h2>
+    }}>Product And Services</h1>
    </div>
     <div className="ProducService-parent-div">
       {cardproduct.map((res, index) => (
@@ -85,7 +85,7 @@ const ProductService = () => {
           key={res.id}
         >
           <div className="product-img-div">
-            <img src={res.imgUrl} alt="/" className="product-img" />
+            <img src={res.imgUrl} alt="/" className="product-img" width="100%" height="100%"/>
           </div>
           <div className="product-content-div">
             <h2>{res.heading}</h2>

@@ -38,6 +38,8 @@ const About = ({ heading }) => {
     }, []);
 
     return (
+        <>
+    
         <div className="parent-about-div">
             <div className={aboutanimate ? "about-div" : "about-div-animate"}>
                 <h2>ABOUT US</h2>
@@ -178,6 +180,7 @@ const About = ({ heading }) => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
