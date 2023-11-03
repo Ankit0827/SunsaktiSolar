@@ -25,12 +25,15 @@ const ImageCarousel = () => {
           <Carousel showArrows={false} showThumbs={false} selectedItem={currentIndex}>
             <div className='h-80 flex items-center justify-center'>
               <img src={sliderimg1} alt="/" className='object-cover object-center' />
+              <p className='text-white absolute bottom-3 '>some text will be here of first Slider</p>
             </div>
-            <div className='h-80'>
+            <div className='h-80 flex items-center justify-center'>
               <img src={sliderimg2} alt="/" className='object-cover object-center' />
+              <p className=' text-white absolute bottom-3 '>some text text will be here of Second Slider</p>
             </div>
-            <div className='h-80'>
+            <div className='h-80 flex items-center justify-center'>
               <img src={sliderimg1} alt="/" className='object-cover object-center' />
+              <p className=' text-white absolute bottom-3 '>some text Will be here of third Slider</p>
             </div>
           </Carousel>
         </div>
@@ -73,7 +76,6 @@ const ImageCarousel = () => {
           <div className='shadow-lg p-4 bg-blue-600 rounded text-white'>
             <h4 >Tata</h4>
           </div>
-
         </div>
         </marquee>
       </div>

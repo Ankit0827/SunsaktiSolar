@@ -115,6 +115,23 @@ h4 {
     cursor: pointer;
 }
 
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(83, 87, 89, 0.507);
+    color: white;
+    right: 0rem;
+    bottom: 8rem;
+    cursor: pointer;
+    background-color: rgb(32, 136, 93);
+}
+
 
 @media screen and (max-width:500px) {
     .parent-footer-div {

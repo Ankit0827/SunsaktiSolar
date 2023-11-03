@@ -10,7 +10,7 @@ const Companyjaipur = () => {
      
         <div className="company-jaipur-parent-div">
             <div className="compnay-jaipur-heading flex items-center  h-52 justify-center bg-[#234579] text-white">
-                <h1>Solar Company in Jaipur</h1>
+                <h3>Solar Company in Jaipur</h3>
             </div>
             <div className="first-div">
                 <div className="Top-solar-company flex items-center justify-center p-5 text-white m-5 mt-0">
@@ -56,12 +56,12 @@ const Companyjaipur = () => {
                 <div className='flex flex-wrap gap-2 px-24 items-center justify-center'>
                     {
                         offercard.map((res) => (
-                            <div className=' flex  w-[45%]  p-4 rounded-lg gap-3 shadow-lg bg-gray-300' key={res.id}>
+                            <div className=' flex  w-[48%]  p-4 rounded-lg gap-3 shadow-lg bg-gray-300' key={res.id}>
                                 <div className="imgicon-div">
-                                    <img src={res.imgPath} alt="/" className='w-[7rem]' width="100%" height="100%" />
+                                    <img src={res.imgPath} alt="/" className='w-[8rem]'/>
                                 </div>
                                 <div className="description-div">
-                                    <h4 className='text-gray-600 font-bold'>{res.heading}</h4>
+                                    <h4 className='text-gray-600 text-lg font-bold'>{res.heading}</h4>
                                     <p className='text-gray-500'>{res.cardDescription}</p>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ const Companyjaipur = () => {
                                         <img src={res.imgPath} alt="/" className='w-[7rem]' width="100%" height="100%" />
                                     </div>
                                     <div className="description-div">
-                                        <h3 className='text-gray-600 font-bold'>{res.heading}</h3>
+                                        <h5 className='text-gray-600'>{res.heading}</h5>
                                         <p className='text-gray-500'>{res.cardDescription}</p>
                                     </div>
                                 </div>
