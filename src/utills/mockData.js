@@ -53,11 +53,8 @@ export const cardData = [
           aboutHeading: "About Sun Sakti Solar",
           imgURL:
             "https://assets.entrepreneur.com/content/3x2/2000/1594363928-panel-2562239.jpg",
-          mainPara:
-            "At Sun Sakti Solar, we are committed to harnessing the boundless power of the sun to create ",
-          mainPara2: "a greener and more sustainable future. As a leading solar energy company, we are driven by",
-          p1: "a vision to make renewable energy accessible and affordable for everyone. With a passion ",
-          p2: "for innovation and environmental responsibility, we strive to be at the forefront of the solar revolution.",
+          mainPara:"Sunshakti Solar's solutions have been improving people's lives for decades, and the unrelenting work we put into producing solutions that are both practical and high-quality is what has helped us establish a trusting relationship with millions of customers World-class solar solutions for 25 years. Sunshakti Solar is known for its quality and reliability in goods and project execution in Jaipur and Rajasthan, thanks to its technical innovation and cutting-edge manufacturing."
+        
         },
       },
       {
@@ -447,6 +444,54 @@ export const OurinstalledSites=[
     kwatt:"20KW"
 
   },
+]
+
+export const SolarPower=[
+  {
+    id:1,
+    heading:"Residential Solar Solutions",
+    content:"Our solar energy firm presents cutting-edge Residential Solar Solutions renowned for their paramount intricacy and divergent approach. We proffer adept solar panel installations available in hybrid, off-grid, and on-grid configurations, ensuring an apex equilibrium of resilience and efficacy."
+  },
+  {
+    id:2,
+    heading:"Industrial Solar Solutions",
+    content:"Sunshakti Solar spearheads Industrial Rooftop Solar Solutions in Jaipur distinguished by their robustness in the face of intensive energy demands. Our industrial solar systems are economically judicious, exhibit minimal ecological footprints, and entail nominal operational overheads."
+  },
+  {
+    id:3,
+    heading:"Commercial Solar Solutions",
+    content:"Our Commercial Solar Solutions Service extends a potential boon to Jaipur's business entities, enhancing their cost-efficiency and ecological stewardship. Our solar systems are exquisitely customized to harmonize with your distinct energy prerequisites, aiding your enterprise's pursuit of self-sufficiency."
+  }, {
+    id:4,
+    heading:"Agricultural Solar Solutions",
+    content:"Sunshakti Solar engineers bespoke agricultural solar solutions in Jaipur, galvanizing agrarian pursuits with sustainable energy alternatives. Our pioneering innovations champion eco-friendly farming practices, diminishing reliance on the conventional grid, and amplifying the efficiency of irrigation systems."
+  }
+]
+
+export const ReasonContent=[
+  {
+    id:1,
+    heading:"Local Proficiency:",
+    reasonContent:"As a domicile-based enterprise, we grasp the idiosyncratic energy dilemmas and openings that beset our urban expanse. We take pride in being your regional solar savant, ensuring that your solar configuration seamlessly adapts to Jaipur's climate and energy exigencies."
+  },
+  {
+    id:2,
+    heading:"Endorsement of Excellence:",
+    reasonContent:"Jaipur Solar Company procures and embeds the most superlative solar constituents to underwrite the durability and efficiency of your system. Our steadfast commitment to quality vouches for the continued profitability of your investment over the years."
+  },  {
+    id:3,
+    heading:"Veteran Cohort:",
+    reasonContent:"Our team constitutes accomplished and seasoned professionals impassioned by the realm of solar energy. We have effectively executed numerous undertakings, a testimony to the faith reposed in us by our patrons."
+  },  {
+    id:4,
+    heading:"Customer-Centric Modus Operandi:",
+    reasonContent:"Your contentment ranks paramount in our ethos. We collaborate closely with you to apprehend your distinct prerequisites, ensuring a seamless journey from consultation to installation."
+  },  {
+    id:5,
+    heading:"Advocates for Sustainableness:",
+    reasonContent:"We as a Global leader in solar energy have consecrated ourselves to the promotion of sustainability, with an ardent mission to diminish Jaipur's carbon trace. By choosing us, you are actively contributing to the metropolis's eco-friendly evolution."
+  },
+
 ]
 
 

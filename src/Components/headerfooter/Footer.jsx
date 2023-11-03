@@ -117,6 +117,9 @@ const Footer = () => {
       <div className="lower-footer-div">
         <span>© 2023 SUN SAKTI SOLAR GREEN ENERGY. ALL RIGHTS RESERVED.</span>
       </div>
+            <Link to="https://api.whatsapp.com/send?phone=8432558555" className="whatsapp">
+              <WhatsAppOutlined/>
+            </Link>
       {showArrow ? (
         <div onClick={moveToTop} className="upper-scroll-div">
           <ArrowUpOutlined />
